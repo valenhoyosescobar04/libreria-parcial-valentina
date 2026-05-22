@@ -1,0 +1,19 @@
+[project]
+name = "example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pytest>=9.0.3",
+    "pytest-bdd>=8.1.0",
+    "pytest-cov>=7.1.0",
+]
+[tool.pytest.ini_options]
+
+pythonpath = ["."]
+markers = [
+    "smoke: quick sanity checks",
+    "critical: critical path tests",
+    "regression: regression tests",
+]
