@@ -92,3 +92,10 @@ Comando usado:
 
 ```bash
 pytest --cov=src --cov-report=term-missing
+
+Name                       Stmts   Miss  Cover   Missing
+--------------------------------------------------------
+src/libreria/__init__.py       0      0   100%
+src/libreria/producto.py      22      0   100%
+--------------------------------------------------------
+TOTAL                         22      0   100%gi
